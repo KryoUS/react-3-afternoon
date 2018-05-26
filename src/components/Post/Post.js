@@ -98,7 +98,7 @@ export default class Post extends Component {
             ?
               <Edit text={ text }
                     id={ id }
-                    hideEdit={ hideEdit }
+                    hideEdit={ this.hideEdit }
                     updatePostFn={ updatePostFn } 
                     />
             :
